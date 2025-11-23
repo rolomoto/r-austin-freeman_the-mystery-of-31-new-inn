@@ -126,4 +126,9 @@ figcaption ol{
 figcaption li{
 	text-align: center;
 }
+
+blockquote p:first-child {
+    text-indent: 1em;
+}
+
 /* end custom */
