@@ -127,8 +127,9 @@ figcaption li{
 	text-align: center;
 }
 
-blockquote p:first-child {
-    text-indent: 1em;
+blockquote > p:first-child {
+    text-indent: 1em !important;
 }
+
 
 /* end custom */
