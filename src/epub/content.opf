@@ -47,10 +47,15 @@
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh2008108880</meta>
 		<meta property="se:subject">Mystery</meta>
-		<dc:description id="description">A doctor/lawyer investigates the mysterious death of a man.</dc:description>
+		<meta id="collection-1" property="belongs-to-collection">Doctor Thorndyke</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
+		<meta property="group-position" refines="#collection-1">3</meta>
+		<meta id="collection-2" property="belongs-to-collection">Haycraft-Queen Cornerstones</meta>
+		<meta property="collection-type" refines="#collection-2">set</meta>
+		<dc:description id="description">A detective investigates a potentially spurious will and the mysterious death of a man.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;The body of a man who died of an opium overdose is found. Could his death be related to a possibly spurious will? &lt;a href="https://standardebooks.org/collections/doctor-thorndyke"&gt;Dr. Thorndyke&lt;/a&gt; is called to investigate and see if he can link the two cases.&lt;/p&gt;
-			&lt;p&gt;The Mystery of 31 New Inn was originally published as a novella and later expanded into a novel which appeared in 1912. Dr. Jervis, who the reader may have met in &lt;a href="https://standardebooks.org/ebooks/r-austin-freeman/the-red-thumbmark"&gt;&lt;i&gt;The Red Thumbmark&lt;/i&gt;&lt;/a&gt; takes a prominent role in this book.&lt;/p&gt;
+			&lt;p&gt;The body of a man who died of an opium overdose is found, could his death be related to a possibly spurious will? &lt;a href="https://standardebooks.org/collections/doctor-thorndyke"&gt;Dr. Thorndyke&lt;/a&gt; is called to investigate and see if he can link the two cases.&lt;/p&gt;
+			&lt;p&gt;The Mystery of 31 New Inn originally appeared as a novella and was later expanded into a novel published in 1912. Dr. Jervis, who the reader may have met in &lt;a href="https://standardebooks.org/ebooks/r-austin-freeman/the-red-thumbmark"&gt;&lt;i&gt;The Red Thumbmark&lt;/i&gt;&lt;/a&gt; takes a prominent role in this book.&lt;/p&gt;
 			&lt;p&gt;This novel is the third in the long-running series of detective stories featuring Doctor Thorndyke.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
@@ -88,6 +93,9 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
+		<dc:contributor id="producer-2">Robin, Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
