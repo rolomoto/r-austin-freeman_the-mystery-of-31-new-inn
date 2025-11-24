@@ -86,9 +86,9 @@ figure.full-page{
 /* end letter */
 
 /* table */
-table {
-    margin: 1em 0 1em 2em;            /* the 0 aligns the table left */
-    border-collapse: collapse;
+table{
+	border-collapse: collapse;
+	margin: 1em 0 1em 2em; /* the 0 aligns the table left */
 }
 
 table td{
@@ -127,9 +127,7 @@ figcaption li{
 	text-align: center;
 }
 
-blockquote > p:first-child {
-    text-indent: 1em !important;
+blockquote > p:first-child{
+	text-indent: 1em !important;
 }
-
-
 /* end custom */
