@@ -85,10 +85,10 @@ figure.full-page{
 }
 /* end letter */
 
-/* table */
+/* Table */
 table{
 	border-collapse: collapse;
-	margin: 1em 0 1em 2em; /* the 0 aligns the table left */
+	margin: 1em 0;
 }
 
 table td{
@@ -100,11 +100,15 @@ table td:first-child{
 	padding-right: .5em;
 }
 
-table td:last-child{
+table td:last-child p{
 	font-variant-numeric: tabular-nums;
-	text-align: initial;
+	text-indent: 0;
 }
-/* end table */
+
+table td:last-child p:first-child{
+	border-bottom: solid 1px;
+}
+/* End table */
 
 /*verse: for the lines to share the same indent*/
 
