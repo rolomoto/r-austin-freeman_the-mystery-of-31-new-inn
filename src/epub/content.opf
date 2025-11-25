@@ -28,7 +28,7 @@
 		<meta property="schema:accessibilityFeature">unlocked</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
-		<dc:title id="title">The Mystery of 31 New Inn</dc:title>
+		<dc:title id="title">The Mystery of 31, New Inn</dc:title>
 		<meta property="file-as" refines="#title">Mystery of 31 New Inn, The</meta>
 		<meta property="dcterms:alternate" refines="#title">The Mystery of Thirty-One New Inn</meta>
 		<dc:subject id="subject-1">Detective and mystery stories</dc:subject>
@@ -55,7 +55,7 @@
 		<dc:description id="description">A detective investigates a potentially spurious will and the mysterious death of a man.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;The body of a man who died of an opium overdose is found, could his death be related to a possibly spurious will? &lt;a href="https://standardebooks.org/collections/doctor-thorndyke"&gt;Dr. Thorndyke&lt;/a&gt; is called to investigate and see if he can link the two cases.&lt;/p&gt;
-			&lt;p&gt;The Mystery of 31 New Inn originally appeared as a novella and was later expanded into a novel published in 1912. Dr. Jervis, who the reader may have met in &lt;a href="https://standardebooks.org/ebooks/r-austin-freeman/the-red-thumbmark"&gt;&lt;i&gt;The Red Thumbmark&lt;/i&gt;&lt;/a&gt; takes a prominent role in this book.&lt;/p&gt;
+			&lt;p&gt;The Mystery of 31, New Inn originally appeared as a novella and was later expanded into a novel published in 1912. Dr. Jervis, who the reader may have met in &lt;a href="https://standardebooks.org/ebooks/r-austin-freeman/the-red-thumbmark"&gt;&lt;i&gt;The Red Thumbmark&lt;/i&gt;&lt;/a&gt; takes a prominent role in this book.&lt;/p&gt;
 			&lt;p&gt;This novel is the third in the long-running series of detective stories featuring Doctor Thorndyke.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
