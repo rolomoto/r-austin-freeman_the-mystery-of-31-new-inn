@@ -106,10 +106,27 @@ table td:last-child{
 }
 /* end table */
 
-[epub|type~="z3998:poem"] p{
-	text-align: initial;
-	text-indent: 0;
+/*verse: for the lines to share the same indent*/
+
+/* Lines in verse are block-level spans */
+[epub|type~="z3998:verse"] p > span {
+    display: block;
+    padding-left: 1em;
+    text-indent: -1em;
 }
+
+/* Hide the <br/> separators */
+[epub|type~="z3998:verse"] p > span + br {
+    display: none;
+}
+
+/* Reset baseline alignment */
+[epub|type~="z3998:verse"] p {
+    text-align: initial;
+    text-indent: 0;
+}
+
+/*end verse*/
 
 /* custom */
 #illustration-2 figcaption header{
