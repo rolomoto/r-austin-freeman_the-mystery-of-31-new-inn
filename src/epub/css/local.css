@@ -113,6 +113,7 @@ table td:last-child p:first-child{
 }
 /* End table */
 
+/* Verse*/
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
@@ -127,6 +128,7 @@ table td:last-child p:first-child{
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
+/* End verse*/
 
 /* Lists */
 ul{
